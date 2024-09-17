@@ -1,0 +1,271 @@
+section
+{
+    padding: 0 7%;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: var(--black);
+}
+
+.search
+{
+    margin-top: 13rem;
+    margin-bottom: 5rem;
+}
+
+.search .cari
+{
+    background-color: var(--white);
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.search i
+{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.search input
+{
+    font-weight: bold;
+    border: 1px solid #000;
+    width: 30%;
+    font-size: 2rem;
+    margin: 1rem;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.product .product-row
+{
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.product .product-row .box
+{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    background-color: var(--white);
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    border-radius: 3rem;
+    margin-right: 3rem;
+}
+
+.product .product-row .img .border-gambar:hover
+{
+    transform: scale(1.1);
+}
+
+.product .product-row .content 
+{
+    margin-bottom: 4rem;
+}
+
+.product .product-row .product-content h3
+{
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.product .product-row .product-content p
+{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: var(--black);
+}
+
+.product .orderNow
+{
+    height: 3rem;
+}
+
+.product .orderNow button
+{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+}
+
+.product .orderNow button:hover
+{
+    font-size: 2rem;
+}
+
+.border-gambar
+{
+    width: 271px;
+    height: 271px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.border-gambar .churros
+{
+    position: relative;
+    top: 10px;
+    width: 250px;
+    height: 250px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    background-image: url(../images/churros.jpg);
+    background-size: cover;
+}
+
+.border-gambar .donat
+{
+    position: relative;
+    top: 10px;
+    width: 250px;
+    height: 250px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    background-image: url(../images/donat.jpg);
+    background-size: cover;
+}
+
+.border-gambar .lumpia
+{
+    position: relative;
+    top: 10px;
+    width: 250px;
+    height: 250px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    background-image: url(../images/keripikLumpia.jpg);
+    background-size: cover;
+}
+
+.footer 
+{
+    background: url(../images/backGround.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+}
+
+.footer .box-container .mainBox .content
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.footer .box-container .mainBox .content h1
+{
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.footer .box-container .mainBox p
+{
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+
+.footer .box-container .box h3
+{
+    font-size: 2.2rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a
+{
+    display: block;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a i
+{
+    padding-right: .5rem;
+    color: var(--black);
+}
+
+.footer .box-container .box a:hover i
+{
+    padding-right: 2rem;
+}
+
+.footer .share
+{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer .share a
+{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color: var(--white);
+    background: var(--black);
+    margin: 0 .3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover
+{
+    background: var(--white);
+    color: var(--black);
+}
+
+.footer .credit
+{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    color: var(--black);
+    text-align: center;
+    
+}
+
+.swiper-pagination-bullet
+{
+    background-color: var(--black);
+}
+
+.swiper-button-next
+{
+    color: var(--black);
+}
+
+.swiper-button-prev
+{
+    color: var(--black);
+}

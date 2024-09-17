@@ -1,6 +1,8 @@
 <?php
 
-$conn = mysqli_connect("localhost","root","","mrhsstore");
+session_start();
+
+$conn = mysqli_connect("localhost", "root", "", "budewCake");
 
 if (!$conn) {
 	echo "Connection failed!";
@@ -13,7 +15,7 @@ if (!$conn) {
 // 	$sql = "CREATE DATABASE budewCake";
 // 	$conn->exec($sql);
 // 	echo "Database created successfully!";
-// } catch(Exception $e) {
+// } catch (Exception $e) {
 // 	echo $sql . "<br>" . $e->getMessage();
 // }
 
@@ -31,6 +33,6 @@ if (!$conn) {
 // 		)";
 // 	$conn->exec($sql);
 // 	echo "Table MyGuests created successfully";
-// } catch(PDOException $e) {
-//   echo $sql . "<br>" . $e->getMessage();
+// } catch (PDOException $e) {
+// 	echo $sql . "<br>" . $e->getMessage();
 // }
